@@ -1,0 +1,24 @@
+* {
+    background-color: burlywood;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+h1 {
+    color: red;
+}
+
+a {
+    color:yellowgreen ;
+}
+
+#Contenu {
+    background-color: lightgray;
+}
+
+.nature {
+    text-align: right;
+    font-size: 2em;
+}
+
