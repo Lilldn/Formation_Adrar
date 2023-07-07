@@ -1,0 +1,33 @@
+p {
+    background-color: lightgrey;
+    border-style: solid;
+    border-color: greenyellow;
+}
+
+.a {
+    height: 100px;
+    padding: 20px;
+    margin: 0px;
+}
+
+.b {
+    width: 50%;
+    padding: 1.2em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.c {
+    height: 200px;
+    width: 200px;
+    padding: -30px;
+    margin: auto;
+}
+
+body {
+    background-color: mediumpurple;
+    margin: 0%;
+    padding: 0%;
+}
