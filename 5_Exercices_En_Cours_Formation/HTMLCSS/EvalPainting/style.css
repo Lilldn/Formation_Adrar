@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+    line-height: 1.7em;
+}
+
+/** HEADER **/
+
+header{
+    display: flex;
+    padding-left: 20%;
+    padding-right: 20%;
+    width: 60%;
+    border-bottom: solid black 3px;
+}
+
+header img:first-child{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+ul{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    font-size:small;
+}
+ 
+/** HAUT MAIN **/
+
+main{
+    width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 3%;
+}
+
+.comment{
+    grid-column: 1 / 4;
+    grid-row: 1;
+    font-size: small;
+    margin-right: 80%;
+}
+
+.centreTop{
+    margin-left: 25%;
+    margin-top: -20%;
+    width: 100%;
+}
+
+.centreTop img{
+    padding-left: 6%;
+    width: 70%;
+    z-index: 1;
+    position: relative;
+    max-width: 45%;
+}
+
+.txtAccueil{
+        margin-top: -25%;
+        margin-left: 45%;
+        margin-right: -50%;
+        width: 15%;
+        z-index: 2;
+        position: relative;
+        background-color: brown;
+        padding: 2%;
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
+}
+
+.centreTop :last-child {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        grid-column: 1;
+    }
+
+    /** BAS MAIN **/
+
+    .centreBottom{
+        max-width: 100%;
+        padding-right: -25%;
+        border-top: dashed;
+        margin-left: 25%;
+        margin-top: 15%;
+        padding-top: 1%;
+        display: flex;
+    }
+    
+    .card {
+        min-width: 150px;
+        max-width: 70%;
+        margin-bottom: 20px;
+        margin-top: 7%;
+    }
+    
+    .card img {
+        width: 100%;
+        max-width: 150px;
+        padding: 0 10px 10px 0;
+    }
+    
+
+
+
+
+
+
+    /** FOOTER **/
+    
+    footer{
+        display: flex;
+        padding-left: 20%;
+        padding-right: 20%;
+        width: 60%;
+        border-top: solid black 3px;
+        justify-content: space-evenly;
+    }
+    
+    footer img:first-child{
+        max-width: 250px;
+        max-height: 250px;
+    }
+    
+    form{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        width: 100%;
+        font-size:small;
+    }
+
+    .inscription{
+        margin-right: 20%;
+    }
