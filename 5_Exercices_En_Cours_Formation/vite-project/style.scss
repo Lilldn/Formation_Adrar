@@ -1,0 +1,17 @@
+@mixin transform($property){
+    -webkit-transform: $property;
+    -ms-transform: $property;
+    transform: $property;
+};
+
+.square{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: blue;
+    @include transform(rotate(45deg));
+}
+
+p{
+    @include transform(rotate(45deg));
+}
